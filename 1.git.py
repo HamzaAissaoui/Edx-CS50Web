@@ -49,3 +49,7 @@ to be able to pull safely.. youll have to choose which lines you want to keep.
 
 9. 'reset --hard [Hash_of_version]': resets your local repository into the commit version in the input.
 
+10. git pages is a feature in github to publish your web pages in your repository for you, 
+	just go to:
+		your repository --> settings (top right) --> Source (change it to master branch)
+	then youll be given a link to your pages
