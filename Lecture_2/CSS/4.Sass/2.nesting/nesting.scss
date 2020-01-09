@@ -1,0 +1,13 @@
+div {
+    font-size: 18px;
+
+    p/*this means we want to apply this style to every paragraph inside a div.
+    In css we would have to use another command div p{...}*/ {
+        color: blue;
+    }
+
+    ul {
+        color: green;
+    }
+}
+

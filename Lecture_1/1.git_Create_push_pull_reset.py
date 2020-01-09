@@ -33,7 +33,7 @@ to be able to pull safely.. youll have to choose which lines you want to keep.
 7.2 "merge conflict":
 	If some files were modified on the server that you didnt know of then you tried to pull the latest version 
 	of the projec, there could be some issues
-	like modifying the same line that another contributer modified youll get an merge conflict.
+	like modifying the same line that another contributer modified youll get a merge conflict.
 	the file will look like this:
 
 <<<<<<<<< HEAD

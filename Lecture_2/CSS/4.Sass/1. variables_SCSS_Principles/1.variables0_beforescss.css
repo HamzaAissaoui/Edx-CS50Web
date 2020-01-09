@@ -1,0 +1,11 @@
+/*If we want to change the color of ul and ol, we would have to edit it twice, 
+which wouldn't be so optimal if we have a huge program, that's why we'll use SCSS*/
+ul {
+  font-size: 14px;
+  color: red;
+}
+
+ol {
+  font-size: 18px;
+  color: red;
+}

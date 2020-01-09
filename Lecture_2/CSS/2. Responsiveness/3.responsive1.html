@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Web Page!</title>
+        <!--adjust the viewport and scall the webpage to the width of the actual device-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            @media (min-width: 500px) {
+                h1::before /*if the window is bigger than 500px, put this content before all h1s in the body*/{
+                    content: "Welcome to My Web Page!";
+                }
+            }
+
+            @media (max-width: 499px) {
+                h1::before /*same thing but for smaller than 500 px*/{
+                    content: "Welcome!";
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <h1></h1>
+    </body>
+</html>

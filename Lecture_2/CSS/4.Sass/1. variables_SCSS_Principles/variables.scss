@@ -1,0 +1,21 @@
+/*We define the variable color*/
+/*We need to compile this file to generate a css file that the browser understands
+the command is:
+		$sass variables.scss variables.css(the name of the css file we want to generate)
+*/
+/*
+Another interessting command is:
+		$sass --watch variables.scss:variables.css
+It means watch any modifications in the sass file and directly apply it into the css file
+*/
+$color: green;
+
+ul {
+    font-size: 14px;
+    color: $color;
+}
+
+ol {
+    font-size: 18px;
+    color: $color;
+}
